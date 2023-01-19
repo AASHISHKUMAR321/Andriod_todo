@@ -9,8 +9,6 @@ const App = () => {
       <TextInput
         onChangeText={t => setText(t)}
         style={{padding: 10, borderColor: 'teal', borderWidth: 2}}></TextInput>
-
-      <Button title="Add Todo"></Button>
     </View>
   );
 };
